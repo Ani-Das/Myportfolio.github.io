@@ -1,2 +1,185 @@
 # Myportfolio.github.io
+/*use Miniprof.html as website link to my portfolio*/
  
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Portfolio of Aniesh Das</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <a href="#" class="rs-link" data-link-desktop="Switch to desktop version" data-link-responsive="Switch to responsive / mobile version"></a>
+<style>
+.grid-container1 {
+  display: grid;
+  justify-content: space-evenly;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ /* grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  grid-gap: 20px;
+  background-color: #51d6d6;
+  padding: 10px;
+  z-index: 1
+}
+
+.num {
+  background-color: rgba(11, 96, 145, 0.8);
+  text-align: center;
+  padding: 10px ;
+  font-size: 30px;
+  z-index: 1
+}
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: burlywood;
+      align-self: center;
+    }
+
+    th,td{
+      padding: 5px;
+      text-align: left;
+    }
+
+  .tabel{
+    position:absolute;
+    background-position: bottom;
+  }
+
+  
+  .anch:link, .anch:visited
+    { background-color:red;
+      color:white;
+      padding: 10px 5px;
+      text-align: center;
+      display: inline block;}
+    
+     .anch:hover, .anch:active
+    { background-color: green;}
+
+    a:link{
+      color:blue;
+    }
+  
+    
+</style>
+</head>
+<script>
+
+  function setnew(){document.getElementById("mp").src="nyties.jpg"}
+
+  function setold(){
+    document.getElementById("mp").src=""}
+
+    //var ol = document.getElementById("mp")
+    //ol.parentNode.removeChild(ol);}
+</script>
+
+<body>
+
+      <div class="grid-container1">
+        <center> 
+            <p style= "font-size: 50px;"><b>My Portfolio</b></p>
+          </center>
+      
+  <div class='num'>
+    
+    Aniesh Das
+    
+  <a href="https://www.facebook.com/aniesh.das/" target="_blank"><img src="fb.png" style="height:25px; width:25px;"></a> 
+  <a href="https://www.instagram.com/anholed/" target="_blank"><img src="ig.jfif"  alt="instagram" style="height:25px; width:25px;"></a>
+  <a href="https://www.youtube.com/channel/UCPex5S2UUGxXCq16Kv8Y2Ow" target="_blank"><img src="youtube.png" style="height:25px; width:25px;"></a>
+  <a href="google.com" target="_blank"><img src="g+.png" style="height:25px; width:25px;"></a>
+  
+  
+  <link type="text/css" rel="stylesheet" href="cascadepic.css">
+    <center>
+    <hr><img class="circular--square" src="mydp.jpg" width="150" height="150"/>
+    </center>
+  </div>
+  
+  <img src="bgcol.jpeg" style="width: 4000px; height:1300px; border:rgba(255, 255, 255, 0.8); position: relative;">
+
+  <div class="tabel">
+  <table style="width: 1700px; min-height: max-content; margin-top: 500px; margin-left: 50px;">
+  <tr>
+    <th style="background-color: royalblue; font-size:xx-large ; color: white; width: 55px">Titles</th>
+    <th style="background-color: blueviolet; font-size:xx-large; color: white; text-align: center; min-width: 680px;" colspan="2" >My Portfolio</th>
+    
+  </tr>
+
+  <tr> 
+    <td style="height: 10px;"> <a href="#sec1"> About Myself </a></td>
+    <td rowspan="4" style="text-align: left;  height: 500px; width: 580px; background-color: aliceblue;"> 
+      <br><h3 id="sec1"><u><b> About Myself</b></u></h3>
+     <p>
+       
+      I am Aniesh Das, born on 7th of September 2001 which makes me 18 years of age. <br>
+      My place of residence is in Pune, Maharashtra and am currently pursuing Engineeering under Pune University.<br>
+      To be specific, my branch of study id electronics and communications engineering from Pune Institute of Computer Technology aka. PICT.
+      My list of interesets and hobbies include programming, app development, web design, playing piano, music etc.<br>
+      I am a certified pianist, completing 7 grades of practical exams and 5 grades of Music Theory under the Associated Board of Royal Schools of Music situated in London (ABRSM board).
+      In my spare time, several outdoor sports interest me like- Football, Table Tennis, Snooker and Chess.
+      I am also an 1800 rated Chess player.
+      <br>
+      I was brought up in a defence family, my father serving in the Indian Navy, so I mostly lived in several cities growing up.<br>
+      Our time was mostly spent in Guwahati, Assam where my grandparents live.
+     </p><br>
+
+     <p><u>Education-</u></p>
+     Primary Schooling - NCS Goa<br>
+     Higher Secondary  - DPS Pune<br>
+     College           - Pune Institute of Technology<br>
+    
+    <p><br><br>
+     <b><h3 id="sec2"><u> List of special talents and hobbies include:</u></h3></b></p>
+
+      1. 9 years of experience playing Piano<br>
+      2. Music producer<br>
+      3. Youtuber<br>
+      4. Speedcuber- Can solve a rubiks cube under 30 seconds<br>
+      5. Can code in C++,C,Javascript,Python,Kotlin<br>
+      6. Table Tennis player<br>
+      7. 1800 rated Chess player<br>
+      8. App developer<br>
+
+      <br><br><br>
+
+      <p><h3 id="sec3"><u><b>Bio-data</b></u></h3></p><br>
+      
+<pre>
+Full name -                Aniesh Das<br>
+Date of Birth -            7th of September 2001<br>
+Age -                      18<br>
+Gender -                   Male<br>
+Email -                    anieshninja2001@gmail.com<br>
+Cell phone no. -           +91 7798094137<br>
+Nationality -              Indian<br>
+Address -                  Nyati Enclave,411060,  Mohammadwadi, Pune, Maharashtra, India<br><br>
+</pre>
+
+    
+    
+    </td>
+    <div class="linked">
+    <td style="height: 10px;"><a class="anch" href="https://www.google.com/maps/@18.4588384,73.9163337,17z" target="_blank"> google map link </a></td>
+    </div>
+  </tr>
+  
+  <tr>
+    <td style="height: 10px;"><a href="#sec2"> My hobbies </a></td>   
+    <td style="background-image: url('map.PNG') ; height: 500px; width: 500px; background-repeat: no-repeat; margin-top: 50px; position: relative;" rowspan="3">
+      <img id="mp" onmouseover="setnew()" onmouseout="setold()" src="nyties.jpg" style="width:500px ; height:300px ;">
+      <br><br><br><br><br><pre><b>            ^ My place of Residence: Pune Maharashtra </b> </pre></td>
+  </tr>
+
+  <tr>
+    <td style="height: 10px;"><a href="#sec3"> Biodata</a> </td>
+  </tr>
+  <tr>
+    <td style="height: 490px;"> </td>
+  </tr> 
+</table>
+
+
+</body>
+</html>
